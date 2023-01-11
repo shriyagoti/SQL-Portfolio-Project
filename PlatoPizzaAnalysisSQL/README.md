@@ -25,11 +25,11 @@ Loaded the data in the flat files into the Database using Microsoft SQL Server a
 
 ![Alt text](url "BrowseFile.png")
 
-#Analysis Questions 
+# Analysis Questions 
 
-# How much did an average pizza order cost?
+## How much did an average pizza order cost?
 
-## Query: 
+### Query: 
 
 WITH AvgOrderValue AS (SELECT  order_details.order_id, SUM(pizzas.price) AS order_value
 	  FROM order_details JOIN pizzas ON order_details.pizza_id=pizzas.pizza_id
@@ -38,15 +38,15 @@ WITH AvgOrderValue AS (SELECT  order_details.order_id, SUM(pizzas.price) AS orde
 SELECT Concat('$',ROUND(SUM(order_value)/COUNT(order_id),0)) AS avg_order_value
 FROM AvgOrderValue;
 
-## Output:
+### Output:
 
 ![Alt text](url "AvgOrder.png")
 
 
 
-# How much revenue did each pizza size generate?
+## How much revenue did each pizza size generate?
 
-## Query:
+### Query:
 
 WITH RevenueBySize AS (SELECT size, Concat('$',ROUND(SUM(price*quantity),0)) as Revenue
 FROM order_details JOIN pizzas ON order_details.pizza_id=pizzas.pizza_id
@@ -56,15 +56,15 @@ SELECT *
 from RevenueBySize
 Order By Revenue DESC
 
-## Output:
+### Output:
 
 ![Alt text](url "RevenueBySize.png")
 
 
 
-# Peak Hours in a day?
+## Peak Hours in a day?
 
-## Query:
+### Query:
 
 SELECT TOP 2 CASE
    WHEN DATEPART(HOUR, [time])< 12 THEN CONCAT(CONVERT(varchar,DATEPART(HOUR, [time])), ' AM')
@@ -76,7 +76,7 @@ FROM orders
 GROUP BY DATEPART(HOUR, [time])
 ORDER by TotalOrders DESC
 
-## Output:
+### Output:
 
 ![Alt text](url "PeakHour.png")
 
