@@ -12,7 +12,7 @@ FROM AvgOrderValue;
 
 ## Output:
 
-![Alt text](url "ttps://github.com/shriyagoti/SQL-Portfolio-Project/blob/main/PlatoPizzaAnalysisSQL/assets/AvgOrder.jpg")
+![Alt text](url "https://github.com/shriyagoti/SQL-Portfolio-Project/blob/main/PlatoPizzaAnalysisSQL/assets/AvgOrder.jpg")
 
 
 
