@@ -19,11 +19,11 @@ Loaded the data in the flat files into the Database using Microsoft SQL Server a
 
 ## Step 1: 
 
-![Alt text](url "LoadingData.png")
+![Alt text]("https://github.com/shriyagoti/SQL-Portfolio-Project/blob/main/PlatoPizzaAnalysisSQL/assets/LoadingData.png")
 
 ## Step 2:
 
-![Alt text](url "BrowseFile.png")
+![Alt text]("https://github.com/shriyagoti/SQL-Portfolio-Project/blob/main/PlatoPizzaAnalysisSQL/assets/AvgOrder.png")
 
 # Analysis Questions 
 
