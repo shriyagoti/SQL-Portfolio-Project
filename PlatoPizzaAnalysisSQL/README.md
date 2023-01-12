@@ -19,11 +19,11 @@ Loaded the data in the flat files into the Database using Microsoft SQL Server a
 
 ## Step 1: 
 
-![Alt text]("https://github.com/shriyagoti/SQL-Portfolio-Project/blob/main/PlatoPizzaAnalysisSQL/assets/LoadingData.png")
+![Alt text](https://github.com/shriyagoti/SQL-Portfolio-Project/blob/main/PlatoPizzaAnalysisSQL/assets/LoadingData.png)
 
 ## Step 2:
 
-![Alt text]("https://github.com/shriyagoti/SQL-Portfolio-Project/blob/main/PlatoPizzaAnalysisSQL/assets/AvgOrder.png")
+![Alt text](https://github.com/shriyagoti/SQL-Portfolio-Project/blob/main/PlatoPizzaAnalysisSQL/assets/BrowseFile.png)
 
 # Analysis Questions 
 
@@ -40,7 +40,7 @@ FROM AvgOrderValue;
 
 ### Output:
 
-![Alt text](url "AvgOrder.png")
+![Alt text](https://github.com/shriyagoti/SQL-Portfolio-Project/blob/main/PlatoPizzaAnalysisSQL/assets/AvgOrder.png)
 
 
 
@@ -58,7 +58,7 @@ Order By Revenue DESC
 
 ### Output:
 
-![Alt text](url "RevenueBySize.png")
+![Alt text](https://github.com/shriyagoti/SQL-Portfolio-Project/blob/main/PlatoPizzaAnalysisSQL/assets/RevenueBySize.png)
 
 
 
@@ -78,7 +78,7 @@ ORDER by TotalOrders DESC
 
 ### Output:
 
-![Alt text](url "PeakHour.png")
+![Alt text](https://github.com/shriyagoti/SQL-Portfolio-Project/blob/main/PlatoPizzaAnalysisSQL/assets/PeakHour.png)
 
 
 
